@@ -281,7 +281,74 @@ Các mô hình được so sánh và lựa chọn dựa trên tiêu chí RMSE th
 
 # 7. Hướng dẫn cài đặt & chạy dự án
 
+7.1. Yêu cầu môi trường
+
+Python phiên bản 3.8 trở lên
+
+Hệ điều hành: Windows / Linux / macOS
+
+7.2. Cài đặt thư viện cần thiết
+
+Cài đặt các thư viện phục vụ xử lý dữ liệu và huấn luyện mô hình:
+
+numpy
+
+pandas
+
+scikit-learn
+
+matplotlib (nếu có trực quan hóa)
+
+7.3. Chuẩn bị dữ liệu
+
+Tải bộ dữ liệu California Housing
+
+Đặt file dữ liệu vào thư mục dự án (ví dụ: data/)
+
+Đảm bảo tên cột đúng theo mô tả của bộ dữ liệu
+
+7.4. Chạy chương trình
+
+Mở file notebook (.ipynb) hoặc file Python chính của dự án
+
+Chạy lần lượt các bước:
+
+Nạp và tiền xử lý dữ liệu
+
+Huấn luyện các mô hình (Linear Regression, SVR, Random Forest)
+
+Dự đoán và đánh giá mô hình bằng RMSE và R²
+
+7.5. Kết quả
+
+Kết quả đánh giá được hiển thị trực tiếp trên màn hình
+
+So sánh hiệu năng giữa các mô hình để lựa chọn mô hình phù hợp nhất
+
 # 8. Cấu trúc thư mục dự án
+
+California-Housing-Regression/
+│
+├── data/
+│   └── california_housing.csv      # Dữ liệu đầu vào
+│
+├── notebooks/
+│   └── housing_regression.ipynb    # Notebook huấn luyện & đánh giá
+│
+├── src/
+│   ├── preprocessing.py            # Tiền xử lý dữ liệu
+│   ├── train.py                    # Huấn luyện mô hình
+│   ├── evaluate.py                 # Đánh giá RMSE, R²
+│   └── predict.py                  # Dự đoán giá nhà
+│
+├── models/
+│   └── saved_models.pkl            # Lưu mô hình đã huấn luyện (tuỳ chọn)
+│
+├── results/
+│   └── evaluation_results.txt      # Kết quả đánh giá mô hình
+│
+├── requirements.txt                # Danh sách thư viện
+└── README.md                       # Hướng dẫn cài đặt & chạy dự án
 
 # 9. Sinh viên thực hiện
 
