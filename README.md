@@ -34,34 +34,14 @@ Bộ dữ liệu được trích xuất từ cuộc Điều tra Dân số Califo
 
 Bộ dữ liệu gồm 10 thuộc tính, trong đó có 9 thuộc tính đầu vào và 1 thuộc tính mục tiêu, cụ thể như sau:
 
-Tên thuộc tính	Mô tả
+Tên thuộc tính:	Mô tả
 
-longitude	Kinh độ địa lý của khu vực
+-longitude:	Kinh độ
 
-latitude	Vĩ độ địa lý của khu vực
+-latitude:	Vĩ độ 
 
-housing_median_age	Tuổi trung bình của các ngôi nhà trong khu vực
+-housing_median_age:	Tuổi trung bình của các ngôi nhà trong khu vực
 
-total_rooms	Tổng số phòng trong các hộ gia đình
+-total_rooms:	Tổng số phòng trong các hộ gia đình
 
-total_bedrooms	Tổng số phòng ngủ trong các hộ gia đình
-
-population	Tổng dân số của khu vực
-
-households	Tổng số hộ gia đình
-
-median_income	Thu nhập trung bình của các hộ gia đình (đã được chuẩn hóa)
-
-median_house_value	Giá trị nhà trung bình của khu vực (đơn vị: USD)
-
-ocean_proximity	Vị trí tương đối so với biển (biến phân loại)
-
-Trong đó:
-
-median_house_value là biến mục tiêu (target variable) dùng để dự đoán trong bài toán hồi quy
-
-ocean_proximity là thuộc tính phân loại, thể hiện mức độ gần biển của khu vực (ví dụ: NEAR BAY, INLAND, NEAR OCEAN, …)
-
-Các thuộc tính còn lại là biến số (numerical features)
-
-Bộ dữ liệu được sử dụng phổ biến trong các bài toán học máy có giám sát, đặc biệt là bài toán hồi quy, nhằm phân tích mối quan hệ giữa các yếu tố địa lý – kinh tế – xã hội và giá trị nhà ở.
+-to124231
