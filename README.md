@@ -203,7 +203,7 @@ Hệ số xác định R²
 
 Các chỉ số này được sử dụng để lựa chọn mô hình dự đoán hiệu quả nhất.
 
-5. Mô hình sử dụng
+# 5. Mô hình sử dụng
 
 Trong nghiên cứu này, ba mô hình học máy có giám sát thuộc nhóm hồi quy (Regression) được lựa chọn để huấn luyện và so sánh hiệu quả dự đoán giá trị nhà trung bình (median_house_value). Các mô hình bao gồm:
 
