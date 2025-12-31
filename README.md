@@ -18,7 +18,7 @@ Thông qua bài toán này, sinh viên nhằm:
 
 -Đánh giá hiệu quả mô hình thông qua các chỉ số như RMSE và R²
 
-2️. Giới thiệu bộ dữ liệu ( California Housing Dataset)
+# 2️. Giới thiệu bộ dữ liệu ( California Housing Dataset)
 
 2.1 Nguồn dữ liệu
 
@@ -32,16 +32,6 @@ Bộ dữ liệu được lấy từ Kaggle:
 
 Bộ dữ liệu được trích xuất từ cuộc Điều tra Dân số California năm 1990, bao gồm các thông tin thống kê tổng hợp theo từng khối nhà (block group). Mỗi dòng dữ liệu đại diện cho một khu vực dân cư và phản ánh các đặc điểm về vị trí địa lý, nhà ở, dân số và điều kiện kinh tế – xã hội.
 
-Bộ dữ liệu gồm 10 thuộc tính, trong đó có 9 thuộc tính đầu vào và 1 thuộc tính mục tiêu, cụ thể như sau:
+Bộ dữ liệu gồm 10 thuộc tính, trong đó có 9 thuộc tính đầu vào và 1 t12423031
 
-Tên thuộc tính:	Mô tả
-
--longitude:	Kinh độ
-
--latitude:	Vĩ độ 
-
--housing_median_age:	Tuổi trung bình của các ngôi nhà trong khu vực
-
--total_rooms:	Tổng số phòng trong các hộ gia đình
-
--to124231
+Lớp: 124231
