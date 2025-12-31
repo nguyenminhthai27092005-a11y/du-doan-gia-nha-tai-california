@@ -328,27 +328,49 @@ So sánh hiệu năng giữa các mô hình để lựa chọn mô hình phù h�
 # 8. Cấu trúc thư mục dự án
 
 California-Housing-Regression/
+
 │
+
 ├── data/
+
 │   └── california_housing.csv      # Dữ liệu đầu vào
+
 │
+
 ├── notebooks/
+
 │   └── housing_regression.ipynb    # Notebook huấn luyện & đánh giá
+
 │
+
 ├── src/
+
 │   ├── preprocessing.py            # Tiền xử lý dữ liệu
+
 │   ├── train.py                    # Huấn luyện mô hình
+
 │   ├── evaluate.py                 # Đánh giá RMSE, R²
+
 │   └── predict.py                  # Dự đoán giá nhà
+
 │
+
 ├── models/
+
 │   └── saved_models.pkl            # Lưu mô hình đã huấn luyện (tuỳ chọn)
+
 │
+
 ├── results/
+
 │   └── evaluation_results.txt      # Kết quả đánh giá mô hình
+
 │
+
 ├── requirements.txt                # Danh sách thư viện
+
 └── README.md                       # Hướng dẫn cài đặt & chạy dự án
+
 
 # 9. Sinh viên thực hiện
 
