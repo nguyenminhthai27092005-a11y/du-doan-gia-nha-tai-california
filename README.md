@@ -278,3 +278,15 @@ RMSE đo lường mức độ sai lệch trung bình giữa giá trị dự đo�
 R² thể hiện mức độ giải thích của mô hình đối với sự biến thiên của biến mục tiêu; giá trị R² càng gần 1 cho thấy mô hình càng phù hợp với dữ liệu.
 
 Các mô hình được so sánh và lựa chọn dựa trên tiêu chí RMSE thấp nhất và R² cao nhất.
+
+# 7. Hướng dẫn cài đặt & chạy dự án
+
+# 8. Cấu trúc thư mục dự án
+
+# 9. Sinh viên thực hiện
+
+Họ tên: Nguyễn Minh Thái
+
+Mã SV: 12423031
+
+Lớp: 124231
